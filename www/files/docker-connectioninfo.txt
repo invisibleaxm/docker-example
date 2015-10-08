@@ -1,0 +1,9 @@
+HOST				IP
+docker  (Workstation): 		129.113.29.76
+fedora  (Laptop):		VGA
+docker1 (Server):		129.113.35.241
+production (Workstation):	129.113.29.108
+Windows Host: 			129.113.29.80
+amazon cloud:			54.201.159.163 (HTTP ports to use, 8080 and 8081)
+
+			

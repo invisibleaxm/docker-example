@@ -51,11 +51,11 @@
           {
             echo "<h1>Hello ".getenv("AUDIENCE")."!</h1>";
           } else {
-            echo "<h1>Hello World!</h1>";
+            echo "<h1>Hello from Docker World!</h1>";
           }
         ?>         
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p>This PHP application is running inside a docker container and can be deployed <em>anywhere*</em>.</p>
+        <p><a class="btn btn-primary btn-lg" href="files/docker4developers.pptx" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
 
@@ -63,19 +63,19 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Docker Installation</h2>
+          <p>I also created some installation instructions that takes you step-by-step on how to get Docker up and running on a LAB environment. If you are interested in this tutorial,  you can download it from the following link. </p>
+          <p><a class="btn btn-default" href="files/docker-installation.pdf" role="button">Download Tutorial &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Dockerfile</h2>
+          <p>The easiest way to create a new docker image is by using a docker file. You can take a look at the one I used to build this container by following the url below. Note that you will still need to add your own content (www) and configure apache but I think this is a good start. </p>
+          <p><a class="btn btn-default" href="files/Dockerfile" role="button">Get Dockerfile &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Learn More</h2>
+          <p>Want to learn more about Docker? There are some great self-paced training videos available at the official <a href="https://training.docker.com/self-paced-training">Docker website</a>. You might also want to create an account with them and get access to the Docker Hub</p>
+          <p><a class="btn btn-default" href="https://hub.docker.com/" role="button">Docker Hub &raquo;</a></p>
         </div>
       </div>
 
